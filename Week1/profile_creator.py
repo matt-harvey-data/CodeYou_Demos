@@ -28,10 +28,9 @@ motivator = input(ask_motivator)
 
 print(motivator)
 
-f = open("profile.txt", "r+")
+f = open("profile.txt", "w")
 
 f.write(ask_name + "\n\n" + name + "\n\n" + ask_purpose + "\n\n" + purpose + "\n\n" + ask_hobbies + "\n\n" + hobbies + "\n\n" +
        ask_goals + "\n\n" + goals + "\n\n" + ask_motivator + "\n\n" + motivator)
 
 f.close()
-
