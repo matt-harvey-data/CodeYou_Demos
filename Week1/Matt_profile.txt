@@ -1,0 +1,19 @@
+What is your name? 
+
+Matt
+
+Why did you decide to join Code Louisville? 
+
+To learn Python
+
+What are you interested in outside of programming? 
+
+Baseball
+
+What do you aspire to achieve with your new programming skills? 
+
+Improve at data analytics
+
+What prompted you to set this goal? 
+
+Ambition
