@@ -1,0 +1,62 @@
+What are the earliest and latest dates crimes were reported in the result set (this requires MIN() and MAX() functions)?
+
+What are the earliest and latest dates crimes occurred in the result set (this requires MIN() and MAX() functions)?
+
+What are the 5 most frequent crimes across the dataset and their volumes?
+
+What 10 zip codes report the most crime and what are their volumes?
+
+Based on the results from the last query, what 3 crimes are most frequent in the zip code with the highest count of crimes and what is their volume?
+
+What are the 3 most frequent crimes in the zip code with the highest count of crimes (using a subquery)?
+
+What is the volume of crimes completed to crimes and crimes not completed? 
+
+What are the offense_classification, date_occurred, badge_id and city for all crimes occurring in Jan 2024 in proper date order?
+
+What are the badge_ids of the 5 officers who responded to the most crimes in March and the volume of crimes responded to by these officers?
+
+What are the volumes of overall crime for each day in March in date order?
+
+What 5 days have the highest volume of crime in April?
+
+What is average volume of crimes for a day in April (this requires a subquery?)
+
+Let's answer the same question, but this time using a view. 
+
+What is the volume of crime by month in the dataset(this requires strftime() function?)
+
+What is average volume of crime for a month in 2024 (use a subquery)?
+
+What are the 5 busiest days for crime and what is their volume?
+
+What are the 5 least busy days for crime and what is their volume?
+
+What is average volume of crime for a month in 2024?
+
+What are the volumes of crime per year in the date reported column prior to 2024 in chronological order (I call this time travel volume)?
+
+What crimes occurred in what volumes in the zip_code 40241 over the duration of the result set?
+
+What block address had the highest volume of crimes reported in 2024?
+
+What block address are crimes reported most frequently in zip_code 40217 and year 2024?
+
+Which 5 officers most frequently responds to the reports from the above query (Use a subquery)?
+
+What are the Crime (Classification), Badge ID, and volume for all crimes committed between valentines day, and 3/1 in 40204 grouped by crime and badge_id?
+
+What are the most frequent cities and their volumes for crimes not occurring in the city 'Louisville'?
+
+What are the most frequent crimes and their volumes that have are not completed and have a volume >= 100?
+
+What are the msot frequent crimes and their volumes occuring between 8a and 5p having a volume > 250?
+
+What are the most frequent crimes and their volumes occuring between 8p and 5a having a volume > 500?
+
+What is the most frequent crime and it's volume to occur at 3p that is not '56 ALL OTHER OFFENSES'?
+
+What are the volumes by hour in 40223 for the crime '11 SIMPLE ASSAULT' having a volume > 1?
+
+What are the 5 busiest LMPD Divisions by volume?
+
