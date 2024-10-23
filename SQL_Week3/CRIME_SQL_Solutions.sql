@@ -1,11 +1,11 @@
 -- What are the earliest and latest dates crimes were reported in the result set (this requires MIN() and MAX() functions)
 
-SELECT MIN(DATE.DATE_REPORTED) AS 'Earlist Report', MAX(DATE.DATE_REPORTED) AS 'Most Recent Report'
+SELECT MIN(DATE.DATE_REPORTED) AS 'Earliest Report', MAX(DATE.DATE_REPORTED) AS 'Most Recent Report'
 FROM DATE;
 
 -- What are the earliest and latest dates crimes occurred in the result set (this requires MIN() and MAX() functions)?
 
-SELECT MIN(DATE_OCCURRED) AS 'Earlist Occurrence', MAX(DATE_OCCURRED) AS 'Most Recent Occurrence'
+SELECT MIN(DATE_OCCURRED) AS 'Earliest Occurrence', MAX(DATE_OCCURRED) AS 'Most Recent Occurrence'
 FROM DATE;
 
 -- What are the 5 most frequent crimes across the dataset and their volumes?
